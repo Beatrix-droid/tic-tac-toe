@@ -1,0 +1,31 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     width: 610px;
+    height: 610px;
+    background-color: black;
+}
+
+
+.grid div {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.playerX{
+    background-image: url("x.jpeg");
+    `height: 150px;
+    width: 150px;`
+
+}
+
+.playerO{
+    background-image: url("O.gif");
+    `height: 200px;
+    width: 200px;`
+    object-fit: contain;
+
+}
