@@ -1,6 +1,6 @@
 document.addEventListener( 'DOMContentLoaded', () => {
     const squares = document.querySelectorAll('.grid div')
-    const playerDisplay = document.querySelectorAll("#player")
+    const playerDisplay = document.querySelector("#player")
     let currentPlayer = "playerX"
 
 
